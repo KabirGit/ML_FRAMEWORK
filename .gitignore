@@ -1,0 +1,52 @@
+# ------------------------
+# Python cache
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# ------------------------
+# Jupyter notebooks
+# ------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ------------------------
+# Virtual environments
+# ------------------------
+venv/
+env/
+.venv/
+
+# ------------------------
+# OS files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# Streamlit secrets
+# ------------------------
+.streamlit/secrets.toml
+
+# ------------------------
+# LARGE DATA (IGNORE)
+# ------------------------
+data/
+
+# ------------------------
+# Optional: temp / outputs
+# ------------------------
+*.csv
+*.xlsx
+*.tmp
+# ------------------------
+# Ignore duplicate model folders
+# ------------------------
+FreightCostPrediction/models/
+InvoiceFlagging/models/
