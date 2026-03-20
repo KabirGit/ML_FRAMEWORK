@@ -33,9 +33,6 @@ MODEL_DIR.mkdir(exist_ok=True)
 # --------------------------------------------------
 # MODEL FILE PATHS
 # --------------------------------------------------
-FREIGHT_MODEL_PATH = MODEL_DIR / "freight_model.pkl"
-INVOICE_MODEL_PATH = MODEL_DIR / "invoice_model.pkl"
-
 
 # --------------------------------------------------
 # OPTIONAL: DEBUG / VALIDATION
